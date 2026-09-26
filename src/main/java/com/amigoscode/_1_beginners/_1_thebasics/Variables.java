@@ -11,19 +11,24 @@ public class Variables {
     public static void main(String[] args) {
 
         // TODO: 1 - Declare an int variable called age and assign it the value 25
-
+        int age = 25;
+        System.out.println("Age: " + age);
 
         // TODO: 2 - Declare a double variable called price and assign it the value 9.99
-
+        double price = 9.99;
+        System.out.println("Price: " + price);
 
         // TODO: 3 - Declare a boolean variable called isJavaFun and assign it the value true
-
+        boolean isJavaFun = true;
+        System.out.println( "is Java Fun: " + isJavaFun);
 
         // TODO: 4 - Declare a String variable called name and assign it your name
-
+        String name= "Luis";
+        System.out.println("my name is:" + name);
 
         // TODO: 5 - Declare a char variable called grade and assign it the value 'A'
-
+        char grade='A';
+        System.out.println("my grade is: " + grade);
 
         // TODO: 6 - Print all the variables above using System.out.println
         // Hint: You can print each variable on its own line, e.g.:
@@ -32,6 +37,7 @@ public class Variables {
 
         // TODO: 7 - Declare a final (constant) variable called MAX_SCORE, set it to 100, and print it
         // Hint: Use the 'final' keyword before the type to make a constant
-
+        final int  MAX_SCORE=100;
+        System.out.println("your score is:" + MAX_SCORE);
     }
 }
