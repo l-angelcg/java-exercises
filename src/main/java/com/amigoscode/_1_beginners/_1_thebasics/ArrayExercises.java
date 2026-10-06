@@ -12,7 +12,7 @@ public class ArrayExercises {
 
         //1 - Declare and initialize an int array called 'numbers' with 5 values
         // Hint: int[] numbers = {value1, value2, value3, value4, value5};
-        int[] numbers = { 1 ,2 ,3 ,4 ,5 };
+        int[] numbers = { 1, 2, 3, 4, 5 };
         System.out.println("numbers : " + numbers.length);
 
 
@@ -53,6 +53,6 @@ public class ArrayExercises {
         for (int num : numbers) {
             sum += num;
         }
-        System.out.println("summarizing  the array: " + sum);
+        System.out.println("summarizing the array: " + sum);
     }
 }
