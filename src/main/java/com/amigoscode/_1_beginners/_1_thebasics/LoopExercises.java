@@ -32,15 +32,16 @@ public class LoopExercises {
         // Hint: do { ... } while (condition);
         do {
             System.out.println("This runs at least once!");
-        } while (5 < 2);
+        } while (false);
 
 
         // 4 - Write a for loop to print only even numbers from 1 to 20
         // Hint: Use an if statement with the modulus operator (%) inside the loop,
         //       or increment by 2 starting from 2.
         for (int i = 1; i <= 20; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 System.out.println("the number is even: " + i);
+            }
         }
 
 
@@ -50,10 +51,9 @@ public class LoopExercises {
         // Print the result.
         int factorial = 1;
         for (int i = 1; i <= 5; i++) {
-            System.out.println("valor de i: " + i);
-            factorial = factorial * i;
-            System.out.println("The factorial is: " + factorial);
+            factorial *= i;
         }
+        System.out.println("The factorial is: " + factorial);
 
 
         // 6 - Use an enhanced for loop (for-each) to iterate over a String array
